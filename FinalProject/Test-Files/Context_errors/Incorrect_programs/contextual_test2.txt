@@ -1,0 +1,20 @@
+ --*
+
+      Example_Test 2 : Semantic Errors
+      This tests is incorrect. We are declaring a class with three variables inside and
+      an if statement. However, the variable in the if statement var2, has not been declared before.
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    if (var2 == 5){
+        -- Many things can go inside an if condition
+    };
+
+};
+

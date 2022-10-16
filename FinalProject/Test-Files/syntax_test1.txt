@@ -1,0 +1,47 @@
+ --*
+
+      Example_Test 1 : Syntax Errors
+
+      This tests is completely correct. It includes operations in int, booleans and strings, as well as loops
+      and comparisons. Additionally, it has comments at the end of the file, and variables without a data type,
+      as they have been declared before in the program.
+
+*--
+
+class Main(int term1, int term2){
+
+    int var1 = 5;
+    int var2 = 12;
+    string str1 = "test";
+    boolean b1 = False;
+    boolean b2 = True;
+
+    int result = 1 + 2 + 2 * var1;
+    string test_string = str1 + "testing" + "tr";
+
+    def withdraw (int amount, int account){
+        if (account >= amount) {
+            account = account - amount;
+        };
+    };
+
+    if ( (var1 < var2) and (True)) {
+        int var3 = var1 + 1 + var1 * var2;
+    }
+    else if (var1 == 5) {
+        int var1 = var1 + 1;
+    }
+    else {
+        string result = str1 + "testing" + str1;
+        print (result);
+    };
+
+     while ( (5 < 6) and (8 < 12) or (8 < 12)){
+         int var2 = 7;
+     };
+
+    print("hello");
+
+};
+
+-- comments

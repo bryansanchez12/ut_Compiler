@@ -1,0 +1,30 @@
+
+-- Le falta añadir la concurrency feature.
+-- Una vez escogido, fork, lock, parbegin/parend; añadirlo al test como term
+
+class BankingSystem () {
+
+
+    int account_brian = 10000;
+    int account_mauricio = 500;
+    int account_fatima = 1000;
+
+
+    def withdraw (int amount, int account){
+        if (account >= amount) {
+            account = account - amount;
+        }
+    };
+
+    deposit (int amount, int account){
+        account = account + amount;
+    };
+
+    transfer (int account1, int account2, int amount) {
+        if (account1 >= amount){
+            account1 = account1 - amount;
+            account2 = account2 + amount;
+        };
+    }
+
+}

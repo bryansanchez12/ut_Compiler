@@ -1,0 +1,20 @@
+ --*
+
+      Example_Test 2 : Syntax Errors
+      This tests is has one mistake. We are declaring a class with three variables inside and
+      an if statement. The mistake is in the comment. It has only one '-' instead of '--'
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    if (var1 == 5){
+        -- Many things can go inside an if condition
+    };
+
+};
+

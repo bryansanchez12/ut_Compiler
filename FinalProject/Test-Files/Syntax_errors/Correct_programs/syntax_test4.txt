@@ -1,0 +1,18 @@
+ --*
+
+      Example_Test 4 : Syntax Errors
+      This tests is completely correct. We are declaring a function inside a class.
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    def myfunction(int var2){
+        var2 = var1 + 1;
+    };
+ 
+};

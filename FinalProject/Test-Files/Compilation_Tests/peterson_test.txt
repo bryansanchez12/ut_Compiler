@@ -1,0 +1,43 @@
+
+--  Este test necesita tambien concurrency.
+-- Parar si i es > 0. Ahí hacer los forks o locks.
+
+
+class peterson () {
+
+    boolean flag_0 = False;
+    boolean flag_1 = False;
+    int turn = 0;
+
+    process_p0 {
+        flag_0 = True;
+        turn = 1;
+        while ( (flag_1 == true) && (turn == 1)) {
+                     // busy wait
+                 }
+                 // critical section
+                 int i = 3;
+                 while (i > 0) {
+                    i = i - 1;
+                 }
+                 // end of critical section
+                 flag_0 = false;
+    }
+
+    process_p1 {
+        flag_1 = True;
+        turn = 1;
+        while ( (flag_0 == true) && (turn == 0)) {
+                     // busy wait
+                 }
+                 // critical section
+                 int i = 3;
+                 while (i > 0) {
+                    i = i - 1;
+                 }
+                 // end of critical section
+                 flag_1 = false;
+    }
+
+
+}

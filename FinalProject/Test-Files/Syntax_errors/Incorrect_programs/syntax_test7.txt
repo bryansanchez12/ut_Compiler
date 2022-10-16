@@ -1,0 +1,22 @@
+ --*
+
+      Example_Test 7 : Syntax Errors
+      This tests is has one mistake. We are declaring a class with three variables inside and
+      two if conditions, one inside the other. Mistake inside the second if. No ';'
+      has been provided.
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    if (b1 == True){
+        if (var1 == 5){
+            int test = 7
+        };
+    };
+
+};

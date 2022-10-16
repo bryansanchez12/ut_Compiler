@@ -1,0 +1,17 @@
+-- Example_Test 4 : Semantic Errors
+
+class Main(int term1, int term2){
+
+    int var1 = 5;
+    int var2 = 5;
+    for (int i=0; i < 100; i = i + 1) {
+        boolean b1 = False;
+        boolean b2 = False;
+        if (False){
+            string str1 = "test";
+            string str2 = "test";
+        };
+    };
+};
+
+-- comments

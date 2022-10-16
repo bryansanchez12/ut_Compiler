@@ -1,0 +1,15 @@
+ --*
+      Example_Test 3 : Syntax Errors
+
+      This tests is incorrect, as the name for your data type cannot start with a number.
+
+*--
+
+class Main(int term1, int term2){
+    int num = False;
+
+    GlobalInt temp = 20;
+    temp.set(5);
+    int x = temp.get();
+    i++;
+};

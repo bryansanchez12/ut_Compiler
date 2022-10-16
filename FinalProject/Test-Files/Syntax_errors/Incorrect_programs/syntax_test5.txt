@@ -1,0 +1,19 @@
+ --*
+
+      Example_Test 5 : Syntax Errors
+      This tests is has one mistake. We are declaring a class with three variables inside and
+      a while condition. The mistake is using '=' instead of '==' in the while condition clause
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    while (var1 = 5){
+        b1 = True;
+    };
+
+};

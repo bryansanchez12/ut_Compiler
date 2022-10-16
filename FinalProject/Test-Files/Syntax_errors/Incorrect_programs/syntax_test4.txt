@@ -1,0 +1,19 @@
+ --*
+
+      Example_Test 4 : Syntax Errors
+      This tests is has one mistake. We are declaring a function inside a class.
+      The mistake is in the wording of 'def'. Here, it says 'fed' instead.
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    fed myfunction (int var2){
+        var2 = var1 + 1;
+    };
+ 
+};

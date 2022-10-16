@@ -1,0 +1,17 @@
+ --*
+
+      Example_Test 1 : Syntax Errors
+      This tests is has one mistake. We are declaring a class with three variables inside
+      but we are not writing ';' after boolean b1.
+
+*--
+
+class Main(int term1, int term2){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False
+
+};
+
+-- comments

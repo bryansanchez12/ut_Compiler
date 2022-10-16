@@ -1,0 +1,18 @@
+ --*
+
+      Example_Test 1 : Semantic Errors
+      This tests is incorrect. We are declaring a class with three variables inside.
+      The mistake is that b1 is missing boolean keyword, and because it has not been declared before,
+      an error appears.
+
+*--
+
+class Main(int term1, int term2){
+
+    int var1 = 5;
+    string str1 = "test";
+    b1 = False;
+
+};
+
+-- comments

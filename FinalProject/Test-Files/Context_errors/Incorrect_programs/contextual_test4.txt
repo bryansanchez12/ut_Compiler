@@ -1,0 +1,19 @@
+ --*
+
+      Example_Test 4 : Semantic Errors
+      This tests is incorrect. We are declaring a function inside a class.
+      However, we are trying to perform / operations on a string.
+
+*--
+
+class Main(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+    def myfunction(int var2){
+        str2 = str1 / str1;
+    };
+
+};

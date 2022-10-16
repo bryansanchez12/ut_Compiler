@@ -1,0 +1,23 @@
+ --*
+
+      Example_Test 3 : Syntax Errors
+      This tests is has one mistake. We are declaring two classes in the same file. But we are not
+      closing Main1 with ';'
+
+*--
+
+class Main1(){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+}
+
+class Main2(){
+
+    int var2 = 5;
+    string str2 = "test";
+    boolean b2 = False;
+
+};

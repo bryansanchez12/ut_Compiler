@@ -1,0 +1,16 @@
+ --*
+
+      Example_Test 1 : Syntax Errors
+      This tests is completely correct. We are declaring a class with three variables inside.
+
+*--
+
+class Main(int term1, int term2){
+
+    int var1 = 5;
+    string str1 = "test";
+    boolean b1 = False;
+
+};
+
+-- comments

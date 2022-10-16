@@ -1,0 +1,20 @@
+ --*
+
+      Example_Test 3 : Semantic Errors
+      This tests is incorrect. We are declaring a class and some variables, with an if condition.
+      However, the last declaration is happening with variables of the wrong scope level.
+
+*--
+
+class Main1(){
+
+    int var1 = 5;
+    string str1 = "test";
+
+    if (True){
+        boolean b1 = False;
+    }
+
+    b1 = True;
+
+};
