@@ -5,7 +5,7 @@ Implementation of the final programming project for Programming Paradigms module
 The aim of this project is to provide a complete compiler for a source language using Java for front-end and code generation.
 
 ### Authors:
-1. Brian Sanchez Haro: s2105454
+1. Bryan Sanchez Haro: s2105454
 2. Fátima González-Novo: s2356546
 
 ## Usage
